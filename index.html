@@ -1,11 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsive website made with html, css, javascript</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- REMIX ICON -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="icon" href="assets/img/favicon.png" type="image/png" />
+    <title>Responsive website made with html, css, javascript</title>
+  </head>
+  <body>
+
+
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <nav role="navigation" class="nav container">
+        <a href="#" class="nav-logo">
+          <i class="ri-rocket-2-line"></i>
+          Space
+        </a>
+
+        <div class="nav-menu" id="nav-menu">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Features</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Pricing</a>
+            </li>
+
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+
+          <a href="#" role="button" class="nav-button">Login</a>
+
+          <!-- Close button -->
+          <div class="nav-close" id="nav-close">
+            <i class="ri-close-line"></i>
+          </div>
+        </div>
+
+        <!-- Toggle button -->
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="ri-apps-2-line"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HOME -->
+      <section class="home">
+        <div class="home-container container">
+          <div class="home-content">
+            <h3 class="home-subtitle">navigate the universe</h3>
+
+            <h1 class="home-title">
+              Start Exploring <br />
+              Infinite Space
+              <img src="assets/img/line.svg" alt="" />
+            </h1>
+
+            <p class="home-description">
+              Start your exploration in space, navigate and discover all the
+              wonders of the universe.
+            </p>
+
+            <button class="home-button" type="button">Get Started</button>
+
+          </div>
+
+          <div class="home-images">
+            <img src="assets/img/points-space.svg" alt="image" class="home-points" />
+            <img src="assets/img/planet.svg" alt="image" class="home-planet-2" />
+            <img src="assets/img/planet.svg" alt="image" class="home-planet-1" />
+            <img src="assets/img/rocket.svg" alt="image" class="home-rocket" />
+          </div>
+
+        </div>
+
+        <img src="assets/img/clouds-1.svg" alt="image" class="home-cloud-1" />
+        <img src="assets/img/clouds-2.svg" alt="image" class="home-cloud-2" />
+      </section>
+    </main>
+
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <!-- JS -->
+    <script src="assets/js/script.js"></script>
+  </body>
 </html>
